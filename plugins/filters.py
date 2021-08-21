@@ -169,7 +169,7 @@ async def addfilter(client, message):
     await add_filter(grp_id, text, reply_text, btn, fileid, alert)
 
     await message.reply_text(
-        f"Filter for  `{text}`  added in  **{title}** \n @wolfpackmedia",
+        f"Filter for  `{text}`  added in  **{title}** \n\n @wolfpackmedia",
         quote=True,
         parse_mode="md"
     )
