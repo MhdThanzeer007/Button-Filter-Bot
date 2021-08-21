@@ -2,7 +2,7 @@ class Script(object):
 
     START_MSG = """<b>Hy {},
 
-I'm an advanced filter bot with many capabilities!
+I'm an Myru filter bot with Unlimited !
 There is no practical limits for my filtering capacity :)
 
 See <i>/help</i> for commands and more details.</b>
@@ -48,13 +48,13 @@ See <i>/help</i> for commands and more details.</b>
 <code>/info userid</code>  -  Shows User Information. Use <code>/info</code> as reply to some message for their details!
 
 
-<b>© @TroJanzHEX</b>
+<b>© [𝗠𝗛𝗗_𝗧𝗛𝗔𝗡𝗭𝗘𝗘𝗥](https://t.me/mhd_thanzeer)</b>
 """
 
 
-    ABOUT_MSG = """⭕️<b>My Name : TroJanz Filter Bot</b>
+    ABOUT_MSG = """⭕️<b>My Onwer : [𝗠𝗛𝗗_𝗧𝗛𝗔𝗡𝗭𝗘𝗘𝗥](https://t.me/mhd_thanzeer)</b>
 
-⭕️<b>Creater :</b> @TroJanzHEX    
+⭕️<b>Creater :</b> @mhd_thanzeer    
 
 ⭕️<b>Language :</b> <code>Python3</code>
 
