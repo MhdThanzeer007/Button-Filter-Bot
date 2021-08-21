@@ -110,7 +110,7 @@ async def showinfo(client, message):
     )
 
 
-@trojanz.on_message((filters.private | filters.group) & filters.command('status'))
+@mhd_thanzeer.on_message((filters.private | filters.group) & filters.command('status'))
 async def bot_status(client,message):
     if str(message.from_user.id) not in Config.AUTH_USERS:
         return
@@ -209,7 +209,7 @@ async def bot_status(client,message):
     )
 
 
-@trojanz.on_message(filters.command('start') & filters.private)
+@mhd_thanzeer.on_message(filters.command('start') & filters.private)
 async def start(client, message):
     await message.reply_text(
         text=Script.START_MSG.format(message.from_user.mention),
@@ -235,7 +235,7 @@ async def start(client, message):
             pass
 
 
-@trojanz.on_message(filters.command('help') & filters.private)
+@mhd_thanzeer.on_message(filters.command('help') & filters.private)
 async def help(client, message):
     await message.reply_text(
         text=Script.HELP_MSG,
@@ -243,12 +243,12 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("How to Deploy?", url="https://youtu.be/hkmc3e7U7R4"),
-                    InlineKeyboardButton("About Me", callback_data="about_data")
+                    InlineKeyboardButton("🧑‍🔬 𝗢𝗡𝗪𝗘𝗥 🧑‍🔬", url="https://t.me/mhd_thanzeer"),
+                    InlineKeyboardButton("🦋 𝗔𝗕𝗢𝗨𝗧 🦋", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("BOT Channel", url="https://t.me/TroJanzHEX"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/TroJanzSupport")
+                    InlineKeyboardButton("🌈 𝘾𝙍𝙀𝘼𝙏𝙊𝙍 🌈", url="https://t.me/mhd_thanzeer"),
+                    InlineKeyboardButton("🤙 𝘾𝙖𝙡𝙡 𝙈𝙚", url="https://t.me/mhd_thanzeer")
                 ]
             ]
         ),
@@ -256,7 +256,7 @@ async def help(client, message):
     )
 
 
-@trojanz.on_message(filters.command('about') & filters.private)
+@mhd_thanzeer.on_message(filters.command('about') & filters.private)
 async def about(client, message):
     await message.reply_text(
         text=Script.ABOUT_MSG,
@@ -265,7 +265,7 @@ async def about(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Unlimited-Filter-Bot")
+                        "SOURCE CODE", url="https://telegra.ph/file/6824a00f2babc136862cd.jpg")
                 ],
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
