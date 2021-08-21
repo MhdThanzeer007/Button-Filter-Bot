@@ -1,11 +1,26 @@
 class Script(object):
 
-    START_MSG = """<b>Hy {},
+    START_MSG = """<b>ＨＥＹ  ʙɪᴛᴄʜ {} How are You!!
 
-I'm an Myru filter bot with Unlimited !
-There is no practical limits for my filtering capacity :)
+     🤠 𝗜  𝗔𝗺 𝗔 𝗨𝗹𝘁𝗿𝗮 𝗙𝗶𝗹𝘁𝗲𝗿 𝗕𝗼𝘁...💣💣
 
-See <i>/help</i> for commands and more details.</b>
+  
+
+  ❌️ 𝐘𝐨𝐮 𝐀𝐫𝐞 𝐀𝐝𝐝 𝐌𝐞 𝐆𝐫𝐨𝐮𝐩 𝐎𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ❌️
+
+         😈 𝐈 𝐖𝐢𝐥𝐥 𝐊𝐢𝐜𝐤 𝐀𝐥𝐥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 😈
+
+           ☠ 𝐌𝐘  𝐎𝐖𝐍𝐄𝐑 & 𝐁𝐎𝐒𝐒 𝐈𝐒 ☠
+
+                🕵‍♂ 𝐎𝐍𝐄  𝐀𝐍𝐃  𝐎𝐍𝐋𝐘 🕵‍♂
+
+                     [𝗠𝗛𝗗_𝗧𝗛𝗔𝗡𝗭𝗘𝗘𝗥](https://t.me/mhd_thanzeer)
+
+﻿Ｙａａａ　Ｈｏｏｏｏｏ💥
+
+💣Ｉａｍ　　ａ　　Ｄｅｖｉｌ　Ｂｏｙ
+
+𝐒𝐄𝐄 <i>/help</i> ꜰᴏʀ ᴄᴏᴍᴍᴀɴᴅꜱ ᴀɴᴅ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟꜱ</b>
 """
 
 
