@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardButton
 
 
 BTN_URL_REGEX = re.compile(
-    r"(\[([^\[]+?)\]\((buttonurl|buttonurl):(?:/{0,2})(.+?)(:same)?\))"
+    r"(\[([^\[]+?)\]\((buttonurl|button):(?:/{0,2})(.+?)(:same)?\))"
 )
 
 SMART_OPEN = '“'
@@ -56,7 +56,7 @@ def parser(text, keyword):
         if n_escapes % 2 == 0:
             note_data += text[prev:match.start(1)]
             prev = match.end(1)
-            if match.group(3) == "buttonurl":
+            if match.group(3) == "button":
                 # create a thruple with button label, url, and newline status
                 if bool(match.group(5)) and buttons:
                     buttons[-1].append(InlineKeyboardButton(
