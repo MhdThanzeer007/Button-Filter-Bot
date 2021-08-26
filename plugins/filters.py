@@ -169,7 +169,7 @@ async def addfilter(client, message):
     await add_filter(grp_id, text, reply_text, btn, fileid, alert)
 
     await message.reply_text(
-        f"Filter for  `{text}`  added in  **{title}** \n\n @wolfpackmedia",
+        f"**Filter for**  `{text}`  **added in**  **{title}** \n\n @wolfpackmedia",
         quote=True,
         parse_mode="md"
     )
@@ -209,7 +209,7 @@ async def get_all(client, message):
     texts = await get_filters(grp_id)
     count = await count_filters(grp_id)
     if count:
-        filterlist = f"Total number of filters in **{title}** : {count}\n\n"
+        filterlist = f"Total number of filters in **{title}**\n ✰ Total Filters ➧ {count}\n\n"
 
         for text in texts:
             keywords = " ➪  `{}`\n\n".format(text)
@@ -309,8 +309,8 @@ async def delallconfirm(client, message):
         await message.reply_text(
             f"This will delete all filters from '{title}'.\nDo you want to continue??",
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton(text="YES✅️",callback_data="delallconfirm")],
-                [InlineKeyboardButton(text="CANCEL❌️",callback_data="delallcancel")]
+                [InlineKeyboardButton(text="YES 100% ✅️",callback_data="delallconfirm")],
+                [InlineKeyboardButton(text="❌️ CANCEL ❌️",callback_data="delallcancel")]
             ]),
             quote=True
         )
