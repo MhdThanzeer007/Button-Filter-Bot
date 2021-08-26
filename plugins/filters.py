@@ -212,7 +212,7 @@ async def get_all(client, message):
         filterlist = f"Total number of filters in **{title}** : {count}\n\n"
 
         for text in texts:
-            keywords = " ×  `{}`\n".format(text)
+            keywords = " ➪  `{}`\n\n".format(text)
             
             filterlist += keywords
 
@@ -309,8 +309,8 @@ async def delallconfirm(client, message):
         await message.reply_text(
             f"This will delete all filters from '{title}'.\nDo you want to continue??",
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton(text="YES",callback_data="delallconfirm")],
-                [InlineKeyboardButton(text="CANCEL",callback_data="delallcancel")]
+                [InlineKeyboardButton(text="YES✅️",callback_data="delallconfirm")],
+                [InlineKeyboardButton(text="CANCEL❌️",callback_data="delallcancel")]
             ]),
             quote=True
         )
